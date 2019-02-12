@@ -1,39 +1,49 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>First try Astrology</title>
+        <title>EasyAstrology</title>
         <link href="style.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     </head>
     <body>
         <div id="banner">
-            <img  src="media/banner white.svg" alt="Zodiac glyphs" style="height: inherit; width: inherit;">
+            <img  src="media/banner black.svg" alt="Zodiac glyphs" style="height: inherit; width: inherit;">
         </div>
         <div id="menu">
-                <a href="index.html"><label class="menu-item">Inicio</label></a>
+                <a href="home.html"><label class="menu-item">Inicio</label></a>
                 <label class="menu-item">Consulta tu carta natal</label>
-                <label class="menu-item">Los signos</label>
+                <a href="signos.html"><label class="menu-item">Los signos</label></a>
                 <label class="menu-item">Sinastría</label>
                 <label class="menu-item">Historia</label>
             </div>
-        <div id="content">                    
-            <h1>Información general</h1>
+        <div id = "intro">
+            <p> La astrología es una herramienta que nos permite conocernos a nosotros mismos y a los demás de una mejor manera, 
+                siendo los astros como el reflejo de un espejo donde podemos ver de manera mas clara los sucesos que ocurren a lo largo de nuestra vida. En EasyAstrology encontrarás
+                todo lo necesario para explorar las bases de esta disciplina, saciar tu curiosidad y aprender algo nuevo, en la tabla que encontrarás a continuación, se haya un resumen
+                con las carácteristicas mas importantes ligadas a cada signo solar, pero ten en cuenta que las astrología natal va mucho mas allá de este signo
+                (En la sección carta natal podrás encontrar más información).
+            </p>
+        </div>
+        <div id="split"></div>
+        </div>
+        <div id="info_table"> 
+            <h1>Tabla resumen de los aspectos del signo solar</h1>                   
             <table>
                 <tbody>
                     <tr>
                         <th>Signo</th>
-                        <td>Aries</td>
-                        <td>Tauro</td>
-                        <td>Géminis</td>
-                        <td>Cáncer</td>
-                        <td>Leo</td>
-                        <td>Virgo</td>
-                        <td>Libra</td>
-                        <td>Escorpio</td>
-                        <td>Sagitario</td>
-                        <td>Capricornio</td>
-                        <td>Acuario</td>
-                        <td>Piscis</td>
+                        <th>Aries</th>
+                        <th>Tauro</th>
+                        <th>Géminis</th>
+                        <th>Cáncer</th>
+                        <th>Leo</th>
+                        <th>Virgo</th>
+                        <th>Libra</th>
+                        <th>Escorpio</th>
+                        <th>Sagitario</th>
+                        <th>Capricornio</th>
+                        <th>Acuario</th>
+                        <th>Piscis</th>
                     </tr>
                     <tr>
                         <th>Glifo</th>
@@ -67,29 +77,62 @@
                     </tr>
                     <tr>
                         <th>Planeta Regente</th>
-                        <td><img src="media/Planet glyphs/Mars.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Venus.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Mercury.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Moon.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Sun.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Mercury.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Venus.svg" class="symbol"></td>
+                        <td><img src="media/Planet glyphs/Mars.svg" class="symbol">
+                            <br>
+                            <h4>Marte</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Venus.svg" class="symbol">
+                            <br>
+                            <h4>Venus</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Mercury.svg" class="symbol">
+                            <br>
+                            <h4>Mercurio</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Moon.svg" class="symbol">
+                            <br>
+                            <h4>Luna</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Sun.svg" class="symbol">
+                            <br>
+                            <h4>Sol</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Mercury.svg" class="symbol">
+                            <br>
+                            <h4>Mercurio</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Venus.svg" class="symbol">
+                            <br>
+                            <h4>Venus</h4>
+                        </td>
                         <td>
                             <img src="media/Planet glyphs/Mars.svg" class="symbol">
                             <br>
                             <img src="media/Planet glyphs/Pluto.svg" class="symbol">
+                            <br>
+                            <h4>Marte-Plutón</h4>
                         </td>
-                        <td><img src="media/Planet glyphs/Jupiter.svg" class="symbol"></td>
-                        <td><img src="media/Planet glyphs/Saturn.svg" class="symbol"></td>
+                        <td><img src="media/Planet glyphs/Jupiter.svg" class="symbol">
+                            <br>
+                            <h4>Júpiter</h4>
+                        </td>
+                        <td><img src="media/Planet glyphs/Saturn.svg" class="symbol">
+                            <br>
+                            <h4>Saturno</h4>
+                        </td>
                         <td>
                             <img src="media/Planet glyphs/Saturn.svg" class="symbol">
                             <br>
                             <img src="media/Planet glyphs/Uranus.svg" class="symbol">
+                            <br>
+                            <h4>Saturno-Urano</h4>
                         </td>
                         <td>
                             <img src="media/Planet glyphs/Jupiter.svg" class="symbol">
                             <br>
                             <img src="media/Planet glyphs/Neptune.svg" class="symbol">
+                            <br>
+                            <h4>Júpiter-Neptuno</h4>
                         </td>
                     </tr>
                     <tr>
@@ -156,7 +199,7 @@
                 </tbody>
             </table>
             <br>
-            <h4>Andres García 2019-2019</h4>
         </div>
+        <h4>Andres García 2019-2019</h4>
     </body>
 </html>
