@@ -44,7 +44,6 @@ label{
     cursor: pointer;
 }
 a{
-    padding: 5px 10px;
     text-decoration: none;
 }
 .menu-item {
@@ -67,28 +66,37 @@ a{
 .symbol, .symbol-2, .symbol-3{
     padding: 2% 2%;
 }
-#banner {
-    width: 100%; 
-    height: 150px;
-    background-color: #def3f6;
-}
 #menu {    
     display: flex;
+    height: 50px;
     justify-content: space-around;
     background-color: #064273;
     padding: 10px 10px;
 }
 #intro{
+    width: 30%;
     text-align: justify;
     padding: 60px 5%;
-}
-#info_table {
-    padding: 0px 5%;
-    background-color: #def3f6;
 }
 .zodiac_sign h1{
     text-align: left;
     padding: 0 5%;
 }
-
+#content{
+    margin: 0 10%;
+}
+#natal-director{
+   width: 100%;
+   height: 400px;
+   display: inline-flex;
+   padding: 5% 10%;
+   font-size: 24px;
+}
+#natal-wheel{
+    width:300px; height: 300px;
+    margin-right: 4%;
+}
+#date{
+    margin: 50% 0;
+}
 

@@ -6,216 +6,219 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body>
-        
-        <div id="banner">
-            <img  src="media/banner black.svg" alt="Zodiac glyphs" style="height: inherit; width: inherit;">
-        </div>
         <div id="menu">
-            <a href="home.html"><label class="menu-item">Inicio</label></a>
-            <label class="menu-item">Consulta tu carta natal</label>
-            <a href="signos.html"><label class="menu-item">Los signos</label></a>
+            <a href="home.html"><img src="media/Another symbols/Fire.png" class="symbol"></a>
+            <label class="menu-item">Carta natal</label>
+            <a href="signos.html"></a><label class="menu-item">No entiendo, expliquenme</label></a>
             <label class="menu-item">Sinastría</label>
-            <label class="menu-item">Historia</label>
         </div>
-        <div id = "intro">
-            <p> La astrología es una herramienta que nos permite conocernos a nosotros mismos y a los demás de una mejor manera, 
-                siendo los astros como el reflejo de un espejo donde podemos ver de manera mas clara los sucesos que ocurren a lo largo de nuestra vida. En EasyAstrology encontrarás
-                todo lo necesario para explorar las bases de esta disciplina, saciar tu curiosidad y aprender algo nuevo, en la tabla que encontrarás a continuación, se haya un resumen
-                con las carácteristicas mas importantes ligadas a cada signo solar, pero ten en cuenta que las astrología natal va mucho mas allá de este signo
-                (En la sección carta natal podrás encontrar más información).
-            </p>
+        <div id="content">            
+            <div id="natal-director">
+                <img  id="natal-wheel" src="media/Zodiac glyphs/Aries.svg" alt="Rueda natal">
+                <form>
+                    <label for="date">Fecha de nacimiento</label>
+                    <input id="date" type="date">
+                    <input id="compute" type="button"value="¡Calcula mi carta natal!"> 
+                </form>
+            </div>
+            <!-- <div id = "intro">
+                <p> La astrología es una herramienta que nos permite conocernos a nosotros mismos y a los demás de una mejor manera, 
+                    siendo los astros como el reflejo de un espejo donde podemos ver de manera mas clara los sucesos que ocurren a lo largo de nuestra vida. En EasyAstrology encontrarás
+                    todo lo necesario para explorar las bases de esta disciplina, saciar tu curiosidad y aprender algo nuevo, en la tabla que encontrarás a continuación, se haya un resumen
+                    con las carácteristicas mas importantes ligadas a cada signo solar, pero ten en cuenta que las astrología natal va mucho mas allá de este signo
+                    (En la sección carta natal podrás encontrar más información).
+                </p>
+            </div> -->
+            <div> 
+                <h1>Tabla resumen de los aspectos del signo solar</h1>                   
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Glifo</th>
+                            <th>Signo</th>
+                            <th>Periodo</th>
+                            <th>Planeta Regente</th>
+                            <th>Casa natural</th>
+                            <th>Cualidad</th>
+                            <th>Elemento</th>
+                            <th>Polaridad</th>                        
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Aries.svg" class="symbol-2"></td>
+                            <td>Aries</td>
+                            <td>Marzo 20 - Abril 19</td>
+                            <td><img src="media/Planet glyphs/Mars.svg" class="symbol">
+                                <br>
+                                <h4>Marte</h4>
+                            </td>
+                            <td>Primera Casa</td>
+                            <td>Cardinal</td>
+                            <td><img src="media/Another symbols/Fire.png" class="symbol""></td>
+                            <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Taurus.svg" class="symbol"></td>
+                            <td>Tauro</td>
+                            <td>Abril 20 - Mayo 20</td>
+                            <td><img src="media/Planet glyphs/Venus.svg" class="symbol">
+                                <br>
+                                <h4>Venus</h4>
+                            </td>
+                            <td>Segunda Casa</td>
+                            <td>Fijo</td>
+                            <td><img src="media/Another symbols/Earth.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Gemini.svg" class="symbol"></td>
+                            <td>Géminis</td>
+                            <td>Mayo 21 - Junio 20</td>
+                            <td><img src="media/Planet glyphs/Mercury.svg" class="symbol">
+                                <br>
+                                <h4>Mercurio</h4>
+                            </td>
+                            <td>Tercera Casa</td>
+                            <td>Mutable</td>
+                            <td><img src="media/Another symbols/Air.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Cancer.svg" class="symbol-2"></td>
+                            <td>Cáncer</td>
+                            <td>Junio 21 - Julio 22</td>
+                            <td><img src="media/Planet glyphs/Moon.svg" class="symbol">
+                                <br>
+                                <h4>Luna</h4>    
+                            </td>
+                            <td>Cuarta Casa</td>
+                            <td>Cardinal</td>
+                            <td><img src="media/Another symbols/Water.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Leo.svg" class="symbol">
+                            </td>
+                            <td>Leo</td>
+                            <td>Julio 23 - Agosto 22</td>
+                            <td><img src="media/Planet glyphs/Sun.svg" class="symbol">
+                            <br>
+                            <h4>Sol</h4>
+                            </td>
+                            <td>Quinta Casa</td>
+                            <td>Fijo</td>
+                            <td><img src="media/Another symbols/Fire.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Virgo.svg" class="symbol"></td>
+                            <td>Virgo</td>
+                            <td>Agosto 23 - Septiembre 22</td>
+                            <td><img src="media/Planet glyphs/Mercury.svg" class="symbol">
+                                <br>
+                                <h4>Mercurio</h4>
+                            </td>
+                            <td>Sexta Casa</td>
+                            <td>Mutable</td>
+                            <td><img src="media/Another symbols/Earth.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Libra.svg" class="symbol"></td>
+                            <td>Libra</td>
+                            <td>Septiembre 23 - Octubre 22</td>
+                            <td><img src="media/Planet glyphs/Venus.svg" class="symbol">
+                                <br>
+                                <h4>Venus</h4>
+                            </td>
+                            <td>Septima Casa</td>
+                            <td>Cardinal</td>
+                            <td><img src="media/Another symbols/Air.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Scorpio.svg" class="symbol"></td>
+                            <td>Escorpio</td>
+                            <td>Octubre 23 - Noviembre 21</td>
+                            <td><img src="media/Planet glyphs/Mars.svg" class="symbol">
+                                <br>
+                                <h4>Marte</h4>
+                                <img src="media/Planet glyphs/Pluto.svg" class="symbol">
+                                <br>
+                                <h4>Plutón</h4>
+                            </td>
+                            <td>Octava Casa</td>
+                            <td>Fijo</td>
+                            <td><img src="media/Another symbols/Water.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Sagittarius.svg" class="symbol"></td>
+                            <td>Sagitario</td>
+                            <td>Noviembre 22 - Diciembre 21</td>
+                            <td><img src="media/Planet glyphs/Jupiter.svg" class="symbol">
+                                <br>
+                                <h4>Júpiter</h4>
+                            </td>
+                            <td>Novena Casa</td>
+                            <td>Mutable</td>
+                            <td><img src="media/Another symbols/Fire.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Capricorn.svg" class="symbol-2"></td>
+                            <td>Capricornio</td>
+                            <td>Diciembre 22 - Enero 20</td>
+                            <td><img src="media/Planet glyphs/Saturn.svg" class="symbol">
+                                <br>
+                                <h4>Saturno</h4>
+                            </td>
+                            <td>Décima Casa</td>
+                            <td>Cardinal</td>
+                            <td><img src="media/Another symbols/Earth.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Aquarius.svg" class="symbol-3"></td>
+                            <td>Acuario</td>
+                            <td>Enero 21 - Febrero 18</td>
+                            <td><img src="media/Planet glyphs/Saturn.svg" class="symbol">
+                                <br>
+                                <h4>Saturno</h4>
+                                <br>
+                                <img src="media/Planet glyphs/Uranus.svg" class="symbol">
+                                <br>
+                                <h4>Urano</h4>
+                            </td>
+                            <td>Undécima Casa</td>
+                            <td>Fijo</td>
+                            <td><img src="media/Another symbols/Air.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="media/Zodiac glyphs/Pisces.svg" class="symbol"></td>
+                            <td>Piscis</td>
+                            <td>Febrero 19 - Marzo 19</td>
+                            <td>
+                                <img src="media/Planet glyphs/Jupiter.svg" class="symbol">
+                                <br>
+                                <h4>Júpiter</h4>
+                                <br>
+                                <img src="media/Planet glyphs/Neptune.svg" class="symbol">
+                                <br>
+                                <h4>Neptuno</h4>
+                            </td>
+                            <td>Duodécima Casa</td>
+                            <td>Mutable</td>
+                            <td><img src="media/Another symbols/Water.png" class="symbol"></td>
+                            <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+            </div>
+            <h4>Andres García - Daniela Andrade 2019-2019</h4>
         </div>
-        <div id="split"></div>
-        </div>
-        <div id="info_table"> 
-            <h1>Tabla resumen de los aspectos del signo solar</h1>                   
-            <table>
-                <thead>
-                    <tr>
-                        <th>Glifo</th>
-                        <th>Signo</th>
-                        <th>Periodo</th>
-                        <th>Planeta Regente</th>
-                        <th>Casa natural</th>
-                        <th>Cualidad</th>
-                        <th>Elemento</th>
-                        <th>Polaridad</th>                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Aries.svg" class="symbol-2"></td>
-                        <td>Aries</td>
-                        <td>Marzo 20 - Abril 19</td>
-                        <td><img src="media/Planet glyphs/Mars.svg" class="symbol">
-                            <br>
-                            <h4>Marte</h4>
-                        </td>
-                        <td>Primera Casa</td>
-                        <td>Cardinal</td>
-                        <td><img src="media/Another symbols/Fire.png" class="symbol""></td>
-                        <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Taurus.svg" class="symbol"></td>
-                        <td>Tauro</td>
-                        <td>Abril 20 - Mayo 20</td>
-                        <td><img src="media/Planet glyphs/Venus.svg" class="symbol">
-                            <br>
-                            <h4>Venus</h4>
-                        </td>
-                        <td>Segunda Casa</td>
-                        <td>Fijo</td>
-                        <td><img src="media/Another symbols/Earth.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Gemini.svg" class="symbol"></td>
-                        <td>Géminis</td>
-                        <td>Mayo 21 - Junio 20</td>
-                        <td><img src="media/Planet glyphs/Mercury.svg" class="symbol">
-                            <br>
-                            <h4>Mercurio</h4>
-                        </td>
-                        <td>Tercera Casa</td>
-                        <td>Mutable</td>
-                        <td><img src="media/Another symbols/Air.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Cancer.svg" class="symbol-2"></td>
-                        <td>Cáncer</td>
-                        <td>Junio 21 - Julio 22</td>
-                        <td><img src="media/Planet glyphs/Moon.svg" class="symbol">
-                            <br>
-                            <h4>Luna</h4>    
-                        </td>
-                        <td>Cuarta Casa</td>
-                        <td>Cardinal</td>
-                        <td><img src="media/Another symbols/Water.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Leo.svg" class="symbol">
-                        </td>
-                        <td>Leo</td>
-                        <td>Julio 23 - Agosto 22</td>
-                        <td><img src="media/Planet glyphs/Sun.svg" class="symbol">
-                        <br>
-                        <h4>Sol</h4>
-                        </td>
-                        <td>Quinta Casa</td>
-                        <td>Fijo</td>
-                        <td><img src="media/Another symbols/Fire.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Virgo.svg" class="symbol"></td>
-                        <td>Virgo</td>
-                        <td>Agosto 23 - Septiembre 22</td>
-                        <td><img src="media/Planet glyphs/Mercury.svg" class="symbol">
-                            <br>
-                            <h4>Mercurio</h4>
-                        </td>
-                        <td>Sexta Casa</td>
-                        <td>Mutable</td>
-                        <td><img src="media/Another symbols/Earth.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Libra.svg" class="symbol"></td>
-                        <td>Libra</td>
-                        <td>Septiembre 23 - Octubre 22</td>
-                        <td><img src="media/Planet glyphs/Venus.svg" class="symbol">
-                            <br>
-                            <h4>Venus</h4>
-                        </td>
-                        <td>Septima Casa</td>
-                        <td>Cardinal</td>
-                        <td><img src="media/Another symbols/Air.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Scorpio.svg" class="symbol"></td>
-                        <td>Escorpio</td>
-                        <td>Octubre 23 - Noviembre 21</td>
-                        <td><img src="media/Planet glyphs/Mars.svg" class="symbol">
-                            <br>
-                            <h4>Marte</h4>
-                            <img src="media/Planet glyphs/Pluto.svg" class="symbol">
-                            <br>
-                            <h4>Plutón</h4>
-                        </td>
-                        <td>Octava Casa</td>
-                        <td>Fijo</td>
-                        <td><img src="media/Another symbols/Water.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Sagittarius.svg" class="symbol"></td>
-                        <td>Sagitario</td>
-                        <td>Noviembre 22 - Diciembre 21</td>
-                        <td><img src="media/Planet glyphs/Jupiter.svg" class="symbol">
-                            <br>
-                            <h4>Júpiter</h4>
-                        </td>
-                        <td>Novena Casa</td>
-                        <td>Mutable</td>
-                        <td><img src="media/Another symbols/Fire.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Capricorn.svg" class="symbol-2"></td>
-                        <td>Capricornio</td>
-                        <td>Diciembre 22 - Enero 20</td>
-                        <td><img src="media/Planet glyphs/Saturn.svg" class="symbol">
-                            <br>
-                            <h4>Saturno</h4>
-                        </td>
-                        <td>Décima Casa</td>
-                        <td>Cardinal</td>
-                        <td><img src="media/Another symbols/Earth.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Aquarius.svg" class="symbol-3"></td>
-                        <td>Acuario</td>
-                        <td>Enero 21 - Febrero 18</td>
-                        <td><img src="media/Planet glyphs/Saturn.svg" class="symbol">
-                            <br>
-                            <h4>Saturno</h4>
-                            <br>
-                            <img src="media/Planet glyphs/Uranus.svg" class="symbol">
-                            <br>
-                            <h4>Urano</h4>
-                        </td>
-                        <td>Undécima Casa</td>
-                        <td>Fijo</td>
-                        <td><img src="media/Another symbols/Air.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Plus.svg" class="symbol"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="media/Zodiac glyphs/Pisces.svg" class="symbol"></td>
-                        <td>Piscis</td>
-                        <td>Febrero 19 - Marzo 19</td>
-                        <td>
-                            <img src="media/Planet glyphs/Jupiter.svg" class="symbol">
-                            <br>
-                            <h4>Júpiter</h4>
-                            <br>
-                            <img src="media/Planet glyphs/Neptune.svg" class="symbol">
-                            <br>
-                            <h4>Neptuno</h4>
-                        </td>
-                        <td>Duodécima Casa</td>
-                        <td>Mutable</td>
-                        <td><img src="media/Another symbols/Water.png" class="symbol"></td>
-                        <td><img src="media/Another symbols/Minus.svg" class="symbol"></td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-        </div>
-        <h4>Andres García - Daniela Andrade 2019-2019</h4>
     </body>
 </html>
