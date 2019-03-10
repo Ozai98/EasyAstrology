@@ -54,18 +54,9 @@ a{
 .symbol {
     width: 50px;
     height: 50px;
-}
-.symbol-2 {
-    width: 64px; 
-    height: 50px;
-}
-.symbol-3 {
-    width: 75px;
-    height: 50px;
-}
-.symbol, .symbol-2, .symbol-3{
     padding: 2% 2%;
 }
+
 #menu {    
     display: flex;
     height: 50px;
